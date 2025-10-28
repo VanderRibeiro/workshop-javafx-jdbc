@@ -45,7 +45,8 @@ public class MainViewController implements Initializable {
 	@Override
 	public void initialize(URL uri, ResourceBundle rb) {
 	}
-
+	
+	//Função para chamar os outros VBoxs
 	private synchronized void loadView(String absoluteName) {
 		try {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource(absoluteName));
